@@ -1,0 +1,24 @@
+<!--pages/teacherModule/teacherVerifyPage/teacherVerifyPage.wxml-->
+<view class="" hover-class="none" hover-stop-propagation="false">
+    <text class="" selectable="false" space="false" decode="false">
+        请输入手机号码
+    </text>
+    <input type="text">
+        
+    </input>
+</view>
+
+<view class="" hover-class="none" hover-stop-propagation="false">
+    <text class="" selectable="false" space="false" decode="false">
+        请输入密码
+    </text>
+    <input type="text">
+        
+    </input>
+</view>
+
+<view>
+    <button bindtap = "teaLogin">
+    登录    
+    </button>
+</view>

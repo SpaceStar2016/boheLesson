@@ -1,0 +1,30 @@
+<!--pages/teacherModule/teacherMain/main.wxml-->
+
+
+<view class="" hover-class="none" hover-stop-propagation="false">
+    
+    <view >
+    <view class="" hover-class="none" hover-stop-propagation="false">
+        欢迎来到薄荷音社排课系统
+        <picker class="weui-btn" mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+            <button type="default">日期选择器</button>
+        </picker>
+    </view>
+    <view class="page-section">
+        <view class="page-section-title">这是一个可以自动聚焦的textarea</view>
+            <view class="textarea-wrp">
+            <textarea auto-focus="true" style="height: 3em" />
+            </view>
+    </view>
+        <button >
+        更新
+        </button>
+        <button >
+        发布
+        </button>
+    
+    </view>
+
+   
+
+</view>
